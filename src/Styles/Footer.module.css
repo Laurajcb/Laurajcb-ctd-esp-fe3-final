@@ -1,0 +1,33 @@
+.light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #007BFF;
+    --border-color: rgb(144, 142, 142);
+    --hover-background: #f0f0f0;
+    --hover-border: #007BFF;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.dark {
+    --background-color: #333333;
+    --text-color: #ffffff;
+    --accent-color: #dfad08;
+    --border-color: rgb(200, 200, 200);
+    --hover-background: #dfad08;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.img{
+    width: 12rem;
+    height: auto;
+}

@@ -1,0 +1,49 @@
+.light {
+	--background-color: #ffffff;
+	--text-color: #000000;
+	--accent-color: #007BFF;
+	--border-color: rgb(144, 142, 142);
+	--hover-background: #f0f0f0;
+	--hover-border: #007BFF;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.dark {
+	--background-color: #333333;
+	--text-color: #ffffff;
+	--accent-color: #dfad08;
+	--border-color: rgb(200, 200, 200);
+	--hover-background: #555555;
+	--hover-border: #dfad08;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.homeContainer {
+	display: flex;
+	justify-content: center;
+	transition: background-color 0.3s ease, color 0.3s ease;
+	width: 100%;
+}
+
+.homeDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 2rem;
+}
+
+.homeTitle {
+	margin-bottom: 3rem;
+}
+
+.homeCardGrid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 1rem;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}

@@ -1,0 +1,51 @@
+.light {
+	--background-color: #ffffff;
+	--text-color: #000000;
+	--accent-color: #007BFF;
+	--border-color: rgb(144, 142, 142);
+	--hover-background: #f0f0f0;
+	--hover-border: #007BFF;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.dark {
+	--background-color: #333333;
+	--text-color: #ffffff;
+	--accent-color: #dfad08;
+	--border-color: rgb(200, 200, 200);
+	--hover-background: #555555;
+	--hover-border: #6407e7;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  background-color: var(--background-color);
+  color: var(--text-color); 
+}
+
+.link {
+  margin: 1rem;
+}
+
+.themeBtn{
+  margin-right: 1rem;
+  background-color: transparent;
+
+  border: solid rgb(144, 142, 142) 0.1rem;
+  border-radius: 2.5rem;
+}
+
+.link:hover {
+  color: var(--accent-color);
+}
+
+.themeBtn:hover {
+  background-color: var(--hover-background);
+  border-color: var(--hover-border);
+}
+

@@ -1,0 +1,51 @@
+.light {
+	--background-color: #ffffff;
+	--text-color: #000000;
+	--accent-color: #007BFF;
+	--border-color: rgb(144, 142, 142);
+	--hover-background: #f0f0f0;
+	--hover-border: #007BFF;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.dark {
+	--background-color: #333333;
+	--text-color: #ffffff;
+	--accent-color: #dfad08;
+	--border-color: rgb(200, 200, 200);
+	--hover-background: #555555;
+	background-color: var(--background-color);
+	color: var(--text-color);
+}
+
+.cardContainer {
+	display: flex;
+	flex-direction: column;
+	height: 15rem;
+	width: 12rem;
+	border: solid var(--border-color) 0.2rem;
+	border-radius: 0.5rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.cardContainer:hover{
+	border: solid var(--accent-color) 0.2rem;
+}
+
+.favButton {
+	margin-top: 0.5rem;
+	background-color: var(--background-color);
+	height: 2rem;
+	border: none;
+	width: 100%;
+}
+
+.favButton:hover {
+	background-color: var(--hover-background)
+}
+
+.cardTxt{
+	margin-top: 0.8rem;
+}

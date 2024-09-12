@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+html,
+body {
+	height: 100%;
+	font-size: 16px;
+	line-height: 1.5;
+	font-family: 'Arial', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas {
+	max-width: 100%;
+	display: block;
+}
+
+input,
+button,
+textarea,
+select {
+	font: inherit;
+	/* Asegura que los controles de formulario usen la misma fuente */
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	/* Asegura que los enlaces hereden el color de texto */
+}
+
+ul,
+ol {
+	list-style: none;
+}

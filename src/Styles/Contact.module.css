@@ -1,0 +1,53 @@
+.light {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --accent-color: #007BFF;
+    --border-color: rgb(144, 142, 142);
+    --hover-background: #f0f0f0;
+    --hover-border: #007BFF;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.dark {
+    --background-color: #333333;
+    --text-color: #ffffff;
+    --accent-color: #dfad08;
+    --border-color: rgb(200, 200, 200);
+    --hover-background: #dfad08;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: center;
+    height: 100vh;
+}
+
+.p {
+    margin-bottom: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Form styles */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    min-width: 16rem;
+}
+
+.btn {
+    margin-bottom: 2rem;
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    cursor: pointer;
+    border: transparent solid 0.2rem;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 3rem;
+}
